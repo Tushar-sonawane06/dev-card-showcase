@@ -875,15 +875,15 @@ body.light-mode .nav-logo {
 
 /* Inputs */
 .testimonial-form input,
+/* FIX textarea height & behavior */
 .testimonial-form textarea {
-  width: 100%;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 1rem;
-  transition: all 0.3s ease;
+  min-height: 120px;     /* 🔥 main fix */
+  resize: vertical;     /* user resize kar sakta hai */
+  line-height: 1.5;
+  display: block;
+  box-sizing: border-box;
 }
+
 
 .testimonial-form input:focus,
 .testimonial-form textarea:focus {
