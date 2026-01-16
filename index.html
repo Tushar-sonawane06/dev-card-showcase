@@ -12,6 +12,77 @@
 </head>
 
 <body>
+
+              <div class="circle-container">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const coords = { x: 0, y: 0 };
+            const circles = document.querySelectorAll(".circle");
+
+            circles.forEach(function (circle) {
+                circle.x = 0;
+                circle.y = 0;
+            });
+
+            window.addEventListener("mousemove", function (e) {
+                coords.x = e.pageX;
+                coords.y = e.pageY - window.scrollY; // Adjust for vertical scroll position
+            });
+
+            function animateCircles() {
+                let x = coords.x;
+                let y = coords.y;
+                circles.forEach(function (circle, index) {
+                    circle.style.left = `${x - 12}px`;
+                    circle.style.top = `${y - 12}px`;
+                    circle.style.transform = `scale(${(circles.length - index) / circles.length})`;
+                    const nextCircle = circles[index + 1] || circles[0];
+                    circle.x = x;
+                    circle.y = y;
+                    x += (nextCircle.x - x) * 0.3;
+                    y += (nextCircle.y - y) * 0.3;
+                });
+
+                requestAnimationFrame(animateCircles);
+            }
+
+            animateCircles();
+        });
+
+    </script>
+
+    
     <!-- Page Loader -->
 
 
@@ -618,6 +689,16 @@
                 <span class="role">Student Developer</span>
                 <p>"Starting my Open Source journey with ECWoC"</p>
                 <a href="https://github.com/suyash-jaiswal-7" class="card-btn" target="_blank">View Profile</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <img src="images\Rudra Agrawal.png" alt=User Photo" class="card-img">
+                <h2>Rudra Agrawal</h2>
+                <span class="role">Full Stack Developer</span>
+                <p>"I am excited to make my first open-source contribution!"</p>
+                <a href="https://github.com/Cypher-0071" class="card-btn" target="_blank">View Profile</a>
             </div>
         </div>
 
