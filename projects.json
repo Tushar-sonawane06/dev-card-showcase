@@ -1520,12 +1520,19 @@
   }
 },
 {
+  "title": "Exam Stress Awareness 🌱",
+  "description": "An educational page that helps students understand exam stress and manage anxiety healthily.",
   "title": "Visual Daily Routine Planner ⏰",
   "description": "A modern, student-friendly daily planner with time blocks, editable tasks, and clean UI.",
   "tags": [
     "HTML",
     "CSS",
     "JavaScript",
+    "Awareness",
+    "Student Wellness"
+  ],
+  "links": {
+    "live": "./projects/exam-stress-awareness/index.html"
     "UI/UX",
     "Productivity"
   ],
