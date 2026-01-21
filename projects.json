@@ -34,6 +34,24 @@
             "github": "https://github.com/neeru24"
         }
     },
+        {
+        "title": "PDF Flashcards",
+        "description": "The tool simulates PDF generation and provides a complete flashcard creation experience!",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PDF",
+            "Document Processing"
+        ],
+        "links": {
+            "live": "./projects/flashcardPDF/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
     {
         "title": "Sliding Image Puzzle",
         "description": "A classic sliding puzzle game where players rearrange scrambled image tiles to form the complete picture. Features multiple difficulty levels, timer, and move counter for an engaging experience.",
