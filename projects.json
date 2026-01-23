@@ -659,6 +659,24 @@
             "github": "https://github.com/PriyanshuSingh00-hub"
         }
     },
+        {
+    "title": "Lunar Lander — Luxury Edition",
+    "description": "A premium physics-based Lunar Lander game featuring realistic gravity and thrust mechanics, smooth animations, particle effects, and a rich, glassmorphism-inspired user interface built with pure web technologies.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "links": {
+        "live": "./projects/Lunar-launcher/index.html"
+    },
+    "author": {
+        "name": "Priyanshu",
+        "github": "https://github.com/PriyanshuSingh00-hub"
+    }
+    },
+
+
     {
         "title": "Hangman Game",
         "description": "A classic Hangman game where players guess letters to reveal a hidden word before running out of attempts. Features multiple categories, hints, and a scoring system.",
@@ -5012,6 +5030,46 @@
     ],
     "links": {
         "live": "./projects/word-sprint/index.html"
+    },
+    "author": {
+        "name": "Gupta-02",
+        "github": "https://github.com/Gupta-02"
+    }
+},
+{
+    "title": "Shape Shooter",
+    "description": "A twin-stick-lite survival game where you rotate and shoot incoming shapes. Survive escalating waves with keyboard movement and mouse aiming, collect power-ups to enhance your abilities.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Game",
+        "Canvas",
+        "Shooter",
+        "Survival"
+    ],
+    "links": {
+        "live": "./projects/shape-shooter/index.html"
+    },
+    "author": {
+        "name": "Gupta-02",
+        "github": "https://github.com/Gupta-02"
+    }
+},
+{
+    "title": "Balloon Rise",
+    "description": "Guide a balloon upward in this vertical scroller with gentle physics. Hold space or tap to rise, use arrow keys to drift laterally, and avoid spikes and wind gusts while reaching new heights.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Game",
+        "Canvas",
+        "Physics",
+        "Vertical Scroller"
+    ],
+    "links": {
+        "live": "./projects/balloon-rise/index.html"
     },
     "author": {
         "name": "Gupta-02",
