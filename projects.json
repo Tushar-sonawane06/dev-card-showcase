@@ -19,7 +19,8 @@
             "name": "Gupta",
             "github": "https://github.com/Gupta-02"
         }
-    },
+    },{
+        "title": "Island Builder",
         "description": "A cozy tile-placement strategy game where players build island paradises by strategically placing tiles to maximize adjacency scoring. Features random tile deck, turn-based gameplay, and beautiful island-building mechanics.",
         "tags": [
             "HTML",
@@ -6088,11 +6089,7 @@
         "github": "https://github.com/pavanakarthik12"
     }
 },
-{
-    "title" : "Typemorph",
-      "live": "./projects/ghostnet/index.html"
-    }
-  },
+
   {
     "title": "Typemorph",
     "description": "A JavaScript library for creating typewriter-style animations. It provides a simple and intuitive way to define and work with typewriter-style animations in your JavaScript applications.",
@@ -6105,17 +6102,7 @@
         "github": "https://github.com/pavanakarthik12"
     }
 },
-{
-    "title" :"CssPhysicslab",
-    "description": "A JavaScript library for creating physics-based animations using CSS. It provides a simple and intuitive way to define and work with physics-based animations in your JavaScript applications.",
-    "tags": [
-        "JavaScript",
-        "CSS Physics",
-        "Library"
-    ],
-      "live": "./projects/typemorph/index.html"
-    }
-  },
+
   {
     "title": "CssPhysicslab",
     "description": "A JavaScript library for creating physics-based animations using CSS. It provides a simple and intuitive way to define and work with physics-based animations.",
@@ -6128,11 +6115,7 @@
         "github": "https://github.com/pavanakarthik12"
     }
 },
-{
-      "name": "PavanKarthik",
-      "github": "https://github.com/pavanakarthik12"
-    }
-  },
+
   {
     "title": "Retro Terminal Website",
     "description": "A website that mimics an old computer terminal interface with command-based navigation. Features typing animation, green-on-black terminal UI, and interactive commands like help, about, and projects.",
