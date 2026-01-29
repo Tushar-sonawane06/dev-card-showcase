@@ -6827,6 +6827,18 @@
       "name": "Gupta-02",
       "github": "https://github.com/Gupta-02"
     }
+  },
+  {
+    "title": "Battle Dice 3D",
+    "description": "Roll giant dice to attack enemies in physics-driven combat. Features different dice types affecting damage and abilities with mouse aiming and keyboard controls.",
+    "tags": ["HTML", "CSS", "JavaScript", "Three.js", "Cannon.js", "Game", "3D", "Physics", "Strategy"],
+    "links": {
+      "live": "./projects/Battle-Dice-3D/"
+    },
+    "author": {
+      "name": "Gupta-02",
+      "github": "https://github.com/Gupta-02"
+    }
   }
 ]
 
