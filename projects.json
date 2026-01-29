@@ -6875,6 +6875,25 @@
       "name": "Gupta-02",
       "github": "https://github.com/Gupta-02"
     }
+  },
+  {
+    "title": "Typing Cat Assistant",
+    "description": "A cat that reacts to keyboard activity by changing expressions, making typing sessions more engaging and fun.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Utility",
+      "Fun",
+      "Animation"
+    ],
+    "links": {
+      "live": "./projects/Typing-Cat-Assistant/"
+    },
+    "author": {
+      "name": "Gupta",
+      "github": "https://github.com/Gupta-02"
+    }
   }
 ]
 
